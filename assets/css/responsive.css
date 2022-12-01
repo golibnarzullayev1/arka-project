@@ -1,0 +1,131 @@
+@media only screen and (max-width: 992px) {
+   .burger {
+      display: block;
+   }
+
+   .main-navbar, .right-navbar {
+      display: none;
+   }
+
+   .main-content .container {
+      flex-direction: column-reverse;
+   }
+
+   .main-content__info {
+      text-align: center;
+   }
+
+   .main-content__info .main-content__info--description {
+      width: auto;
+   }
+
+   .products-wrapper .products-wrapper__item {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .custom-box .custom-box__wrapper .cards {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .custom-box {
+      padding: 0;
+   }
+
+   .merchants .merchants-body .merchants-body__items {
+      flex-direction: column;
+   }
+
+   .merchants .merchants-body__items .merchants-body__image {
+      width: 100%;
+   }
+
+   .merchants .merchants-body__items .merchants-body__image img {
+      width: 50%;
+   }
+
+   .merchants .merchants-body__items .mr-1 {
+      margin-right: 0;
+   }
+
+   .merchants .merchants-body__items .ml-1 {
+      margin-left: 0;
+   }
+
+   .merchants .merchants-body__items:nth-child(2) .merchants-body__image {
+      order: 0;
+   }
+
+   .merchants .merchants-body__items .merchants-body__content {
+      padding: 25px;
+   }
+
+   .footer-items {
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 30px;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .footer-items {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 30px;
+   }
+}
+
+@media only screen and (max-width: 576px) {
+   .main-content img {
+      width: 100%;
+   }
+
+   .main-content__info .main-content__info--title {
+      font-size: 2rem;
+      width: auto;
+      line-height: 2.5rem;
+      margin-bottom: 1rem;
+   }
+
+   .products .products-header__title {
+      font-size: 1rem;
+      line-height: 1.3rem;
+   }
+
+   .merchants-card__wrapper .merchants-header {
+      flex-direction: column;
+   }
+
+   .merchants .merchants-body__items .merchants-body__content--description {
+      font-size: 1.2rem;
+      line-height: 25px;
+   }
+
+   .merchants  .poster__info img {
+      width: 40px;
+      height: 40px;
+   }
+
+   .merchants .merchants-body__items h6 {
+      font-size: 14px;
+   }
+
+   .merchants .merchants-body__items p {
+      font-size: 12px;
+   }
+
+   .btn {
+      padding: 1rem 1.4rem;
+      font-size: 8px;
+   }
+
+   .products-wrapper .products-wrapper__item {
+      grid-template-columns: 100%;
+   }
+
+   .custom-box .custom-box__wrapper .cards {
+      grid-template-columns: 100%;
+   }
+
+   .footer-items {
+      grid-template-columns: 100%;
+      row-gap: 30px;
+   }
+}
